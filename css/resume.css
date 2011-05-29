@@ -1,0 +1,67 @@
+
+body {
+    font-family: "Baskerville", serif;
+    font-size: 100%;
+    margin: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link    { color: #A00; }
+a:visited { color: #700; }
+a:active  { color: #A00; }
+a:hover   { color: #A00; text-decoration: underline; }
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h2, h3 {
+    padding: 0;
+    margin:  0;
+}
+
+h3 {
+    margin-left: 3px;
+    font-size: 95%;
+    color: #555;
+}
+
+#header, #footer, #content {
+    max-width: 40em;
+    margin: auto;
+}
+
+#header, #footer {
+    border: 0 solid #ccc;
+    width: 100%;
+}
+
+#header {
+    border-bottom-width: 1px;
+}
+
+#header a { 
+    font-size: 150%;
+    color: #A00;
+}
+
+.email { 
+    float: right; 
+}
+
+#footer {
+    border-top-width: 1px;
+    text-align: center;
+    margin: 2.5em auto;
+    
+}
+
+
+h2 {
+    margin-top: 20px;
+    padding-top: 40px;
+    background: transparent url('../img/divider_sm.jpg') no-repeat center 0;
+}
