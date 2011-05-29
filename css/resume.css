@@ -48,8 +48,10 @@ h3 {
     color: #A00;
 }
 
-.email { 
-    float: right; 
+#header .email { 
+    float: right;
+    font-size: 100%;
+    line-height: 220%; 
 }
 
 #footer {
